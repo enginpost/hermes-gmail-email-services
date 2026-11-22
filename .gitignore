@@ -1,0 +1,13 @@
+# Secrets / local config
+hermes-gmail-config.json
+
+# Logs
+logs/
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store

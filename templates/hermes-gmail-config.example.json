@@ -1,0 +1,23 @@
+{
+  "email": {
+    "default_sender": "YOUR_GMAIL_ADDRESS",
+    "aliases": [
+      "alias1@example.com",
+      "alias2@example.com"
+    ]
+  },
+  "smtp": {
+    "host": "smtp.gmail.com",
+    "port": 465,
+    "use_ssl": true
+  },
+  "imap": {
+    "host": "imap.gmail.com",
+    "port": 993
+  },
+  "logging": {
+    "dir": "logs",
+    "log_sent": true,
+    "log_search": true
+  }
+}
