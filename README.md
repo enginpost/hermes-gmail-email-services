@@ -2,12 +2,17 @@
 
 Gmail queue and sending utilities for Hermes.
 
+## Quick Start
+
+See [DOCS.md](DOCS.md) for full setup, environment variables, Linux/Ubuntu instructions, and security notes.
+
 ## Files
 
 - `hermes_gmail.py` – Send/search Gmail via SMTP/IMAP
 - `hermes_gmail_queue_processor.py` – Process queued email.md files
 - `templates/hermes-gmail-config.example.json` – Config template
 - `logs/` – Runtime logs, ignored by git
+- `DOCS.md` – Detailed setup and configuration guide
 
 ## Setup
 
@@ -22,11 +27,7 @@ Gmail queue and sending utilities for Hermes.
 
 3. Do NOT commit the real `hermes-gmail-config.json` — it is ignored by `.gitignore`.
 
-## Config Template Notes
-
-Copy `templates/hermes-gmail-config.example.json` to `hermes-gmail-config.json` in this folder and fill in your Gmail address and aliases.
-
-Do NOT commit the real `hermes-gmail-config.json` — it is ignored by .gitignore.
+For Gmail App Password setup and environment variable options, see [DOCS.md](DOCS.md).
 
 ## Usage
 
@@ -41,3 +42,4 @@ python3 hermes_gmail_queue_processor.py
 ```
 
 Queue files go in `/mnt/data/obsidian/second_brain/hermes-gmail/mail-queue/`.
+
