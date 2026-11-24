@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Code written by Hermes Agent using muse-glimmer with low effort.
 """
 star_gmail.py - Star a Gmail message via IMAP
 Usage: python3 star_gmail.py --uid <uid> [--msgid <message-id>]

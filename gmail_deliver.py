@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Code written by Hermes Agent using muse-glimmer with low effort.
 """Run check_unread_email.py, validate/fix HTML in each output block, print validated blocks."""
 
 import subprocess

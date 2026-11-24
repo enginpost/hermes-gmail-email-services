@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Code written by Hermes Agent using muse-glimmer with low effort.
 """
 hermes_gmail.py - Send and search Gmail via IMAP/SMTP
 Phase 1: send email

@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Code written by Hermes Agent using muse-glimmer with low effort.
 """
 search_gmail.py
 Search Gmail via IMAP by category label and read/unread status.

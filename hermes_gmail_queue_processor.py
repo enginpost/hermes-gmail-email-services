@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Code written by Hermes Agent using muse-glimmer with low effort.
 """
 Hermes Gmail Queue Processor
 Reads mail-queue/*.md files containing a JSON codeblock with email spec,

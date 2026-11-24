@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Code written by Hermes Agent using muse-glimmer with low effort.
 """Check unread Gmail messages from the last 24 hours and categorize them."""
 
 import imaplib
