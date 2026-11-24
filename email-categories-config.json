@@ -1,0 +1,109 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "label": "Career",
+      "display": "💼 CAREER / JOB OPPORTUNITIES",
+      "keywords": [
+        "hiring",
+        "opportunity",
+        "position",
+        "interview",
+        "career",
+        "job",
+        "recruiter",
+        "apply",
+        "employment",
+        "vacancy",
+        "open position",
+        "candidate",
+        "role at",
+        "we're hiring"
+      ]
+    },
+    {
+      "id": 1,
+      "label": "Receipt",
+      "display": "🧾 DIGITAL RECEIPTS",
+      "keywords": [
+        "receipt",
+        "invoice",
+        "paid",
+        "order confirmation",
+        "payment received",
+        "transaction",
+        "purchase confirmed",
+        "your payment of"
+      ]
+    },
+    {
+      "id": 2,
+      "label": "Newsletter",
+      "display": "📰 NEWSLETTERS / DIGESTS",
+      "keywords": [
+        "newsletter",
+        "digest",
+        "weekly update",
+        "monthly roundup",
+        "this week in",
+        "edition of",
+        "your weekly",
+        "insider",
+        "the batch",
+        "today's email"
+      ]
+    },
+    {
+      "id": 3,
+      "label": "Retail",
+      "display": "🛒 RETAIL / ADVERTISEMENTS",
+      "keywords": [
+        "sale",
+        "discount",
+        "deal",
+        "offer",
+        "promo",
+        "coupons",
+        "30% off",
+        "free shipping",
+        "shop now",
+        "big names",
+        "special offer",
+        "limited time",
+        "exclusive deal",
+        "deals"
+      ]
+    },
+    {
+      "id": 4,
+      "label": "Social",
+      "display": "👥 SOCIAL / FRIENDS & FAMILY",
+      "keywords": [
+        "friend",
+        "family",
+        "social",
+        "invit",
+        "birthday",
+        "party",
+        "dinner",
+        "hang out",
+        "join us"
+      ]
+    },
+    {
+      "id": 5,
+      "label": "Service",
+      "display": "⚙️ ACCOUNT / SERVICE UPDATES",
+      "keywords": [
+        "pricing",
+        "upgrade",
+        "plan",
+        "subscription",
+        "account update",
+        "verification",
+        "security alert"
+      ]
+    }
+  ],
+  "uncategorized_label": "Other"
+}
