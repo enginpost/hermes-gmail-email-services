@@ -1,0 +1,26 @@
+[
+  {
+    "name": "TLDR",
+    "sender": "dan@tldrnewsletter.com",
+    "output": "/mnt/data/obsidian/second_brain/hermes-gmail/Newsletters/tldrnews.md",
+    "label": "Newsletter"
+  },
+  {
+    "name": "Scrum",
+    "sender": "marketing@sender.scrum.org",
+    "output": "/mnt/data/obsidian/second_brain/hermes-gmail/Newsletters/scrumnews.md",
+    "label": "Newsletter"
+  },
+  {
+    "name": "AI Batch",
+    "sender": "thebatch@deeplearning.ai",
+    "output": "/mnt/data/obsidian/second_brain/hermes-gmail/Newsletters/ai-news.md",
+    "label": "Newsletter"
+  },
+  {
+    "name": "NASA",
+    "sender": "hq-newsletter@nasa.gov",
+    "output": "/mnt/data/obsidian/second_brain/hermes-gmail/Newsletters/nasa-news.md",
+    "label": "Newsletter"
+  }
+]

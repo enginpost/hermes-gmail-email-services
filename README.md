@@ -19,6 +19,9 @@ See [DOCS.md](DOCS.md) for full setup, environment variables, Linux/Ubuntu instr
   - `star_gmail.py` – Star messages via IMAP UID STORE +FLAGS \\Flagged
   - `email-categories-config.json` – Category/label/keyword definitions
   - `run_gmail_check.sh` – Wrapper for cron job
+  - `process_newsletters_config.py` – Config-driven newsletter archiving to Obsidian Markdown, marks emails as read
+  - `newsletters.config.json` – Sender → output mapping for newsletters
+  - `process_newsletters.py` – Single-sender newsletter archiver
 
 ## Setup
 
@@ -74,4 +77,19 @@ python3 star_gmail.py --uid <uid>
 python3 star_gmail.py --msgid "<Message-ID>"
 ```
 
+## Newsletter Archiving
 
+Config-driven newsletter archiving to Obsidian Second Brain.
+
+Config file: `newsletters.config.json`
+Runner: `process_newsletters_config.py`
+
+Cron job `Process Newsletters` runs daily at 4am CST / 10:00 UTC and processes all configured newsletters, marking processed messages as read.
+
+Outputs:
+- `.../Newsletters/tldrnews.md` – dan@tldrnewsletter.com
+- `.../Newsletters/scrumnews.md` – marketing@sender.scrum.org
+- `.../Newsletters/ai-news.md` – thebatch@deeplearning.ai
+- `.../Newsletters/nasa-news.md` – hq-newsletter@nasa.gov
+
+Format: newest first, `## YYYY-MM-DD - <subject>` with bulleted links `[text](url)`.
